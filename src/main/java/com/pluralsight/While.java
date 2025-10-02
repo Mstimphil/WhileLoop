@@ -7,5 +7,12 @@ public class While {
         System.out.println("I love Java");
         System.out.println("I love Java");
         System.out.println("I love Java");
+
+        String greeting = "I love Java";
+
+        while (greeting == 5) {
+            System.out.println(greeting);
+        }
+
     }
 }
