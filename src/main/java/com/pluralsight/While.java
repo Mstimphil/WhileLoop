@@ -1,18 +1,18 @@
 package com.pluralsight;
 
+import java.util.Scanner;
+
 public class While {
     public static void main(String[] args) {
-        System.out.println("I love Java");
-        System.out.println("I love Java");
-        System.out.println("I love Java");
-        System.out.println("I love Java");
-        System.out.println("I love Java");
+        Scanner scanner = new Scanner(System.in);
+        String word = "I love java";
+        while ((!word.equals(word)));
+        System.out.println(word);
 
-        String greeting = "I love Java";
 
-        while (greeting == 5) {
-            System.out.println(greeting);
+
+
         }
 
     }
-}
+
